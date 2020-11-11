@@ -49,7 +49,6 @@ class NeuralNetwork(object):
 		l1= np.matrix(input).T
 		self.l1 = l1
 		# print(l1)
-		# print("---") 
 		# print(self.w1.shape)
 		l2= self.w1*l1
 		# print(l2)
