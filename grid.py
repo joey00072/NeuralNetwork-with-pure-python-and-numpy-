@@ -1,6 +1,7 @@
 import pygame
 import numpy as np
 import neural_network as nn
+import time
 pygame.init()
 
 HIGHT,WIDTH=600,600
@@ -32,7 +33,7 @@ class Grid(object):
 		self.row = row
 		self.cols = cols
 		self.grid=self.makeGrid()
-		self.brain = nn.NeuralNetwork(2,3,1)
+		self.brain = nn.NeuralNetwork([2,4,2,1])
 		self.data_x = [[0, 0], [1, 1], [1, 0], [0, 1]]
 		self.data_y = [[0], [0], [1], [1]]
 
@@ -63,10 +64,11 @@ class Grid(object):
 
 
 		
-g = Grid(20,20)
+g = Grid(15,15)
 while RUN:
 	screen.fill(BLACK)
-	pygame.time.delay(1)
+	pygame.time.delay(10)
+	# time.sleep(0.1)
 	for event in pygame.event.get():
 		if event.type==pygame.QUIT:
 			exit()
