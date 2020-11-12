@@ -33,7 +33,7 @@ class Grid(object):
 		self.row = row
 		self.cols = cols
 		self.grid=self.makeGrid()
-		self.brain = nn.NeuralNetwork([2,4,2,1])
+		self.brain = nn.NeuralNetwork([2,32,8,2,8,32,1],0.2)
 		self.data_x = [[0, 0], [1, 1], [1, 0], [0, 1]]
 		self.data_y = [[0], [0], [1], [1]]
 
