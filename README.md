@@ -9,8 +9,8 @@ layers = [2,4,4,1]
 brain = NeuralNetwork(layers)
 
 #Sample data for XOR
-train_x = [[0, 0], [1, 1], [1, 0], [0, 1]]
-train_y = [[0], [0], [1], [1]]
+train_x = [[0,0], [1,1], [1,0], [0,1]]
+train_y = [[0],[0],[1],[1]]
 
 brain.train(train_x,train_y)
 
