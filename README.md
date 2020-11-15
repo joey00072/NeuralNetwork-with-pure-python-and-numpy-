@@ -32,8 +32,8 @@ $ python3 xor.py
 ```
 
 
-![](images/xor_soln1_new.PNG = 250x)
-![](images/xor_soln2_new.PNG =250x250)
+![](images/xor_soln1_new.PNG)
+![](images/xor_soln2_new.PNG)
 
 Neural Network reaching same conclusion with different solution space  
 (corners for both have same color)
