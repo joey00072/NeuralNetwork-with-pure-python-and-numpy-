@@ -31,7 +31,6 @@ run
 $ python3 xor.py
 ```
 
-
 ![](images/xor_soln1_new.PNG)
 ![](images/xor_soln2_new.PNG)
 
