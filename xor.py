@@ -66,7 +66,7 @@ class Grid(object):
                                             0), (int(WIDTH*i/self.cols), HIGHT), 1)
 
 
-g = Grid(15, 15)
+g = Grid(20, 20)
 while RUN:
     screen.fill(BLACK)
     pygame.time.delay(10)
