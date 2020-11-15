@@ -31,14 +31,9 @@ run
 $ python3 xor.py
 ```
 
-<<<<<<< HEAD
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 ![](images/xor_soln1_new.PNG = 250x)
 ![](images/xor_soln2_new.PNG =250x250)
-=======
-![](images/xor_soln1.PNG )
-![](images/xor_soln2.PNG )
->>>>>>> 249190c3d889f1fc5936434693239dd512ec5e83
+
 Neural Network reaching same conclusion with different solution space  
 (corners for both have same color)
